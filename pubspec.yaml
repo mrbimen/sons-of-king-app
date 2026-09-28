@@ -1,0 +1,32 @@
+name: e3dadi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+# تم تجميع كل الحزم تحت dependencies واحدة فقط لإنهاء المشكلة 📥
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0  # مكتبة سوبابيز تم دمجها هنا بنجاح
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+
