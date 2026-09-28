@@ -1,32 +1,32 @@
 name: e3dadi
-description: "A new Flutter project."
+
+description: منظومة أولاد الملك
+
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.13.4
+  sdk: ">=3.0.0 <4.0.0"
 
-# تم تجميع كل الحزم تحت dependencies واحدة فقط لإنهاء المشكلة 📥
 dependencies:
   flutter:
     sdk: flutter
-  supabase_flutter: ^2.8.0  # مكتبة سوبابيز تم دمجها هنا بنجاح
+
   cupertino_icons: ^1.0.8
-  webview_flutter: ^4.14.1
+
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.10.1
+
+  connectivity_plus: ^6.1.5
+  file_picker: ^10.2.0
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1"
+
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
-
-
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/logo.png"
-
-
-

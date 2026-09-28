@@ -376,12 +376,11 @@ class _MainWebViewScreenState
         if (didPop) return;
 
         final shouldExit =
-            await _handleBackButton();
+await _handleBackButton();
 
-        if (shouldExit && mounted) {
-
-          Navigator.of(context).pop();
-        }
+if (shouldExit && context.mounted) {
+  Navigator.of(context).pop();
+}
       },
 
       child: Scaffold(
