@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://android.com">
     
-    <!-- صلاحيات الوصول للإنترنت لعرض موقع الخدمة حياً -->
+    <!-- صلاحيات الوصول للإنترنت لعرض موقع الخدمة حياً بكامل الشاشة -->
     <uses-permission android:name="android.permission.INTERNET" />
     
     <application
